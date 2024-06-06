@@ -70,7 +70,7 @@ const TabContent = ({
                 <iframe
                     src={tab.url}
                     title={`webview-${tab.id}`}
-                    className="w-full"
+                    className="w-full h-[81vh] rounded-2xl"
                 ></iframe>
             )}
             {tab.url && tab.url.endsWith(".md") && (
