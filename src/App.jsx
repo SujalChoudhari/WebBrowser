@@ -9,7 +9,8 @@ function App() {
 
   const handleNavigate = async (e, id) => {
     e.preventDefault();
-    const newUrl = e.currentTarget.url.value;
+    // const newUrl = e.currentTarget.url.value;
+    const newUrl = tabs[id - 1].url;
     const isMarkdown = newUrl.endsWith(".md");
     let content = "";
 
@@ -24,7 +25,7 @@ function App() {
         newHistory.push(newUrl);
         return {
           ...tab,
-          name: newUrl,
+          name: tab.name || newUrl,
           url: newUrl,
           content,
           isMarkdown,

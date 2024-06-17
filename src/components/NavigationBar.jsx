@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { invoke } from '@tauri-apps/api/tauri';
 
 const NavigationBar = ({
     handleNavigate,
@@ -11,9 +12,17 @@ const NavigationBar = ({
 }) => {
     const urlInputRef = useRef(null);
 
-    const handleInputChange = () => {
-        const newUrl = urlInputRef.current.value;
-        setTabs(tabs.map(t => (t.id === tab.id ? { ...t,name:newUrl, url: newUrl } : t)));
+    const handleInputChange = async () => {
+        let newUrl = urlInputRef.current.value;
+        let redirectedUrl = newUrl;
+        if (newUrl.startsWith('svc://')) {
+            try {
+                redirectedUrl = await invoke('get_forwarded_link', { domain: newUrl });
+            } catch (error) {
+                console.error(`Error fetching redirected URL: ${error}`);
+            }
+        }
+        setTabs(tabs.map(t => (t.id === tab.id ? { ...t, name: newUrl, url: redirectedUrl } : t)));
     };
 
     return (
