@@ -16,4 +16,3 @@ svc://kyleamathews.typography.iirc https://raw.githubusercontent.com/KyleAMathew
 svc://30-seconds.code.lol https://raw.githubusercontent.com/30-seconds/30-seconds-of-code/master/README.md
 svc://jonschlinkert.remarkable.fck https://raw.githubusercontent.com/jonschlinkert/remarkable/master/README.md
 svc://carloscuesta.gitmoji.lmao https://raw.githubusercontent.com/carloscuesta/gitmoji/master/README.md
-svc://marionebl.commitlint.iirc https://raw.githubusercontent.com/marionebl/commitlint/master/README.md
