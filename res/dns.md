@@ -1,3 +1,5 @@
+svc://sujal.choudhari.fck https://raw.githubusercontent.com/SujalChoudhari/SujalChoudhari/main/README.md
+svc://conway.iirc https://raw.githubusercontent.com/SujalChoudhari/ConwaysGameOfLifeXBadApple/main/README.md
 svc://adam-p.markdown.fyi https://raw.githubusercontent.com/adam-p/markdown-here/master/README.md
 svc://tchapi.cheatsheet.iirc https://raw.githubusercontent.com/tchapi/markdown-cheatsheet/master/README.md
 svc://ekalinin.toc.lol https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/README.md
@@ -10,11 +12,8 @@ svc://jstumpp.android.lol https://raw.githubusercontent.com/JStumpp/awesome-andr
 svc://vinta.python.fck https://raw.githubusercontent.com/vinta/awesome-python/master/README.md
 svc://sdras.actions.smh https://raw.githubusercontent.com/sdras/awesome-actions/master/README.md
 svc://micromatch.docs.lmao https://raw.githubusercontent.com/micromatch/micromatch/master/README.md
-svc://leehach.markdown.fyi https://raw.githubusercontent.com/leehach/markdown-in-readme/master/README.md
 svc://kyleamathews.typography.iirc https://raw.githubusercontent.com/KyleAMathews/typography.js/master/README.md
 svc://30-seconds.code.lol https://raw.githubusercontent.com/30-seconds/30-seconds-of-code/master/README.md
 svc://jonschlinkert.remarkable.fck https://raw.githubusercontent.com/jonschlinkert/remarkable/master/README.md
-svc://chentsulin.graphql.smh https://raw.githubusercontent.com/chentsulin/awesome-graphql/master/readme.md
 svc://carloscuesta.gitmoji.lmao https://raw.githubusercontent.com/carloscuesta/gitmoji/master/README.md
-svc://0nn0.sysadmin.fyi https://raw.githubusercontent.com/0nn0/awesome-sysadmin/master/readme.md
 svc://marionebl.commitlint.iirc https://raw.githubusercontent.com/marionebl/commitlint/master/README.md
